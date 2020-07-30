@@ -4,7 +4,7 @@ on:
    workflow_dispatch:
      inputs:
       gitRef:
-        description: 'test' # 'Enter the git ref (branch, commit hash, tag, etc.) to build.'
+        description: 'Enter the git ref (branch, commit hash, tag, etc.) to build.'
         required: true
 
  
