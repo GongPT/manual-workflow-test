@@ -24,5 +24,4 @@ jobs:
         id: printLogLevel
         run: |
           echo "The log level is $INPUT_LOGLEVEL"
-          echo "The other env variable is $OTHER_ENV"  
-        
+          echo "The other env variable is $OTHER_ENV"       
