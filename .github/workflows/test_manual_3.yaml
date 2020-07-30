@@ -7,7 +7,6 @@ on:
         description: 'Enter the git ref (branch, commit hash, tag, etc.) to build.'
         required: true
 
- 
 env:
    VAR: test
 jobs:
