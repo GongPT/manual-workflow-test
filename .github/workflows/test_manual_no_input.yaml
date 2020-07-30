@@ -10,4 +10,3 @@ jobs:
       - name: Print puppy type
         id: printPuppyType
         run: 'echo "There is no puppy for this job with no inputs :("'
-        
