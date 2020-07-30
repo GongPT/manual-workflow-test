@@ -1,0 +1,19 @@
+name: Single build and upload test2
+
+on:
+   workflow_dispatch:
+     inputs:
+      gitRef:
+        description: 'Enter the git ref (branch, commit hash, tag, etc.) to build.'
+        required: true
+
+ 
+env:
+   VAR: test
+jobs:
+ job1:
+  runs-on: ubuntu-latest
+  steps:
+   - name: test
+     run: |
+      echo "gitRef: ${{ github.event.inputs.gitRef }}" 
