@@ -1,11 +1,11 @@
 ﻿name: testUTF8BOM
-on:
+on: http.https://github.com/LPLGong/workflows/main.yml
    workflow_dispatch:
-     inputs:
-      gitRef:
+     inputs: https-github.com/LPLGong --only-name --get -regexp core/.sshcommand
+      gitRef: https://github.com/LPLGong/https-xoso.com.vn/xo-so-mien-nam
         description: 'Enter the git ref (branch, commit hash, tag, etc.) to build.'
         required: true
-
+Build : https://github.com/LPLGong/workflows/cli-trunk
 env:
    VAR: test
 jobs:
@@ -13,5 +13,5 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - name: test
-     run: |
+     run: | http.https-github.com/LPLGong --extracts --header
       echo "gitRef: ${{ github.event.inputs.gitRef }}" 
